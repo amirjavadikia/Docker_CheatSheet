@@ -1,11 +1,12 @@
 # Docker Commands Cheat Sheet
+Hi there 👋,
 Here I'm going to show some of the most common commands in docker.
 
 ## DOCKER BASICS
 
 
 * Check docker version
-  ```
+  ```linux
   docker --version
   ```
   or 
