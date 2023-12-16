@@ -6,7 +6,7 @@ Here I'm going to show some of the most common commands in docker.
 
 
 * Check docker version
-  ```linux
+  ```
   docker --version
   ```
   or 
