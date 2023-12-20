@@ -82,3 +82,18 @@ Here I'm going to show some of the most common commands in docker.
   ```
   docker rm <container_name/id>
   ```
+
+## IMAGES
+
+* Build a Docker image from a DockerFile
+  ```
+  docker build -t <image_name> <path_to_DockerFile>
+  ```
+* Remove an image
+  ```
+  docker rmi <image_name>
+  ```
+* Remove all unused images
+  ```
+  docker image prune
+  ```
