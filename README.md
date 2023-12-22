@@ -120,3 +120,20 @@ Here I'm going to show some of the most common commands in docker.
   ```
   docker-compose exec <service_name> <command>
   ```
+
+
+
+## DOCKER REGISTRY
+
+* Log in to a Docker registery
+  ```
+  docker login
+  ```
+* Push an image to a registry
+  ```
+  docker push <image_name>
+  ```
+* Pull an image from a registry
+  ```
+  docker pull <image_name>
+  ```
