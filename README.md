@@ -160,7 +160,7 @@ Here I'm going to show some of the most common commands in docker.
   ```
 
 
-  ## DOCKER LOGS AND DEBUGGING
+## DOCKER LOGS AND DEBUGGING
 
 * View Container Logs
   ```
