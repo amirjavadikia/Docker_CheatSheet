@@ -97,6 +97,10 @@ Here I'm going to show some of the most common commands in docker.
   ```
   docker image prune
   ```
+* Search for images available on Docker Hub 
+  ```
+  docker search <image_name>
+  ```
 
 ## DOCKER COMPOSE
 
