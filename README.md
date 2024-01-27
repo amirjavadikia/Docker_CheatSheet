@@ -101,7 +101,12 @@ Here I'm going to show some of the most common commands in docker.
   ```
   docker search <image_name>
   ```
+* Interactive shell access into the container
+  ```
+  docker run -it <image_name>
+  ```
 
+  
 ## DOCKER COMPOSE
 
 * Start services defined in a Docker Compose file
