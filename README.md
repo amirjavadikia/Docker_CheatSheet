@@ -158,3 +158,20 @@ Here I'm going to show some of the most common commands in docker.
   ```
   docker network disconnect <network_name> <container_name/id>
   ```
+
+
+  ## DOCKER LOGS AND DEBUGGING
+
+* View Container Logs
+  ```
+  docker logs <container_name/id>
+  ```
+* Start an interactive shell in a running container
+  ```
+  docker exec -it <container_name/id> /bin/bash
+  ```
+* Display real-time container resource usage
+  ```
+  docker stats <container_name/id>
+  ```
+
