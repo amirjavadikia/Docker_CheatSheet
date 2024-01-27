@@ -175,3 +175,23 @@ Here I'm going to show some of the most common commands in docker.
   docker stats <container_name/id>
   ```
 
+
+## DOCKER CLEANUP
+
+* Remove all stopped containers, unused networks, and images
+  ```
+  docker system prune
+  ```
+* Remove all stopped containers
+  ```
+  docker container prune
+  ```
+* Remove all unused images
+  ```
+  docker image prune
+  ```
+* Remove all unused volumes
+  ```
+  docker volume prune
+  ```
+
